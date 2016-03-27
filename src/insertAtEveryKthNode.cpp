@@ -37,7 +37,7 @@ struct node * insertAtEveryKthNode(struct node *head, int K)
 		return head;
 	while (temp1 != NULL)
 	{
-		if ((i == K*j + c) && temp1 != NULL)
+		if ((i == K*j + c))
 		{
 			newnode = (struct node*)malloc(sizeof(struct node));
 			newnode->num = K;
